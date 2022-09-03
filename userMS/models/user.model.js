@@ -26,6 +26,9 @@ userSchema.path('email').validate((val) => {
     return emailRegex.test(val);
 }, 'Invalid e-mail.');
 
+// edite 
+
+
 // Events
 userSchema.pre('save', function (next) {
     bcrypt.genSalt(10, (err, salt) => {
