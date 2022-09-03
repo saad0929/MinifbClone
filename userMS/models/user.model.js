@@ -26,7 +26,7 @@ userSchema.path('email').validate((val) => {
     return emailRegex.test(val);
 }, 'Invalid e-mail.');
 
-// edite 
+// edite korlam
 
 
 // Events
